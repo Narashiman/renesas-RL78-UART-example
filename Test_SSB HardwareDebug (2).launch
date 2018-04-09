@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.renesas.cdt.launch.dsf.simulator.launchConfigurationType">
+<intAttribute key="com.renesas.cdt.core.admPortNumber" value="61236"/>
+<stringAttribute key="com.renesas.cdt.core.initCommands" value=""/>
+<stringAttribute key="com.renesas.cdt.core.ipAddress" value="localhost"/>
+<stringAttribute key="com.renesas.cdt.core.jtagDeviceId" value="com.renesas.hardwaredebug.simulator.rl78"/>
+<booleanAttribute key="com.renesas.cdt.core.loadImage" value="true"/>
+<stringAttribute key="com.renesas.cdt.core.optionInitCommands" value=""/>
+<intAttribute key="com.renesas.cdt.core.portNumber" value="61234"/>
+<stringAttribute key="com.renesas.cdt.core.runCommands" value=""/>
+<stringAttribute key="com.renesas.cdt.core.secondGDBExe" value="green_dsp-elf-gdb"/>
+<intAttribute key="com.renesas.cdt.core.secondGdbPortNumber" value="61237"/>
+<stringAttribute key="com.renesas.cdt.core.serverParam" value="-g SIMULATOR  -t R5F10268  -p 61234 -d 61236 -umFreq= 2.00 -usFreq= 32.768 -uresetOnReload= 1"/>
+<booleanAttribute key="com.renesas.cdt.core.setResume" value="true"/>
+<booleanAttribute key="com.renesas.cdt.core.setStopAt" value="true"/>
+<stringAttribute key="com.renesas.cdt.core.stopAt" value="main"/>
+<stringAttribute key="com.renesas.cdt.core.targetDevice" value="R5F10268"/>
+<booleanAttribute key="com.renesas.cdt.core.useRemoteTarget" value="true"/>
+<stringAttribute key="com.renesas.cdt.debug.ioview.dsf.registerSelection" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;selectedRegisterList ioFilePath=&quot;C:\Renesas\e2_studio\DebugComp\RL78\Iofiles\R5F10268.sfrx&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.IO_MAP" value="${eclipse_home}"/>
+<booleanAttribute key="com.renesas.cdt.launch.dsf.USE_DEFAULT_IO_MAP" value="true"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.launchSeqType" value="com.renesas.cdt.launch.dsf.launchSequence.e2GdbServer"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.serverPath" value="${renesas.support.targetLoc:rl78-debug}\e2-server-gdb"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.le" value="true"/>
+<booleanAttribute key="com.renesas.hardwaredebug.launch.options.DebugToolSettingsTree.resetAfterReload" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForImage" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForSymbols" value="true"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="rl78-elf-gdb"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/Test_SSB.x"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Test_SSB"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.renesas.cdt.managedbuild.renesas.ccrl.debug.configuration.1242381110"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Test_SSB"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+</launchConfiguration>

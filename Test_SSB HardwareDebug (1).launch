@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.renesas.cdt.launch.dsf.gdbremote.launchConfigurationType">
+<intAttribute key="com.renesas.cdt.core.admPortNumber" value="61236"/>
+<stringAttribute key="com.renesas.cdt.core.initCommands" value=""/>
+<stringAttribute key="com.renesas.cdt.core.ipAddress" value="localhost"/>
+<stringAttribute key="com.renesas.cdt.core.jtagDeviceId" value="com.renesas.hardwaredebug.rl78.e1"/>
+<booleanAttribute key="com.renesas.cdt.core.loadImage" value="true"/>
+<stringAttribute key="com.renesas.cdt.core.optionInitCommands" value=""/>
+<intAttribute key="com.renesas.cdt.core.portNumber" value="61234"/>
+<stringAttribute key="com.renesas.cdt.core.runCommands" value=""/>
+<stringAttribute key="com.renesas.cdt.core.secondGDBExe" value="green_dsp-elf-gdb"/>
+<intAttribute key="com.renesas.cdt.core.secondGdbPortNumber" value="61237"/>
+<stringAttribute key="com.renesas.cdt.core.serverParam" value="-g E1  -t R5F10268  -p 61234 -d 61236 -umFreq= 0 -usFreq= 0 -umClock= 1 -w 1 -usupplyVoltage= 0 -ucommMethod= 0 -usecurityID= 00000000000000000000 -upermitFlash= 1 -uuseWideVoltageMode= 1 -ueraseRom= 1 -uuseOnChipDebug= 0 -uuseUserOptionByte= 0 -uresetOnReload= 1 -ustopTimerEmu= 0 -ustopSerialEmu= 0 -umaskInternalResetSignal= 0 -umaskTargetResetSignal= 0 -n 0 -uverifyOnWritingMemory= 1 -uTraceCapture= 0"/>
+<booleanAttribute key="com.renesas.cdt.core.setResume" value="true"/>
+<booleanAttribute key="com.renesas.cdt.core.setStopAt" value="true"/>
+<stringAttribute key="com.renesas.cdt.core.stopAt" value="main"/>
+<stringAttribute key="com.renesas.cdt.core.targetDevice" value="R5F10268"/>
+<booleanAttribute key="com.renesas.cdt.core.useRemoteTarget" value="true"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.IO_MAP" value="${eclipse_home}"/>
+<booleanAttribute key="com.renesas.cdt.launch.dsf.USE_DEFAULT_IO_MAP" value="true"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.launchSeqType" value="com.renesas.cdt.launch.dsf.launchSequence.e2GdbServer"/>
+<stringAttribute key="com.renesas.cdt.launch.dsf.serverPath" value="${renesas.support.targetLoc:rl78-debug}\e2-server-gdb"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1.rl78.TreeDebugToolSettings.resetAfterReload" value="true"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.enable.hot.plug" value="false"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.le" value="true"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.stopSerialEmu" value="false"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.stopTimerEmu" value="false"/>
+<booleanAttribute key="com.renesas.hardwaredebug.e1rl78.traceEnable" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForImage" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForSymbols" value="true"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="rl78-elf-gdb"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="HardwareDebug/Test_SSB.x"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Test_SSB"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration.2005257033"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Test_SSB"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+</launchConfiguration>
