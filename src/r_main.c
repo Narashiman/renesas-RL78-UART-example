@@ -135,32 +135,32 @@ void main(void)
                 switch (g_uart0_rx_buffer)                                          /* Check Reception data */
                 {
                     case '0':                                                       /* Reception data is '0' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageOK, 4U);  /* Stop transmit */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageOK, 4U);  
                         break;
 
                     case '1':                                                       /* Reception data is '1' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Start transmit */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  
                         break;
 
                     case '2':                                                       /* Reception data is '2' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Restart */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U); 
                         break;
 
 
                     case '3':                                                       /* Reception data is '3' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Gain 1 */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  
                         break;
 
                     case '4':                                                       /* Reception data is '4' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Gain 2 */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  
                         break;
 
                     case '5':                                                       /* Reception data is '5' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Gain 3 */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U); 
                         break;
 
                     case '6':                                                       /* Reception data is '6' */
-                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  /* Gain 4 */
+                        g_uart0_tx_end = R_UART0_Send((uint8_t *)g_messageok, 4U);  
                         break;
 
                 }
